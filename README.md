@@ -1,36 +1,48 @@
 🌱 Waste Classification using CNN
+AI-powered waste detection for sustainable smart cities
+<div align="center">
 
-AI-powered waste detection using Convolutional Neural Networks (CNNs)
-Promoting smart waste management for a cleaner, sustainable environment.
+🚮♻️ Automating Waste Segregation using Deep Learning
+📷 Built with TensorFlow/Keras
+⚡ Powered by Convolutional Neural Networks (CNNs)
+🌍 Designed for Smart Bins, IoT, and Green AI Solutions
 
-📌 Overview
+</div>
+📌 Project Overview
 
-This project uses a Convolutional Neural Network (CNN) to automatically classify waste images into categories such as Organic, Recyclable, and Hazardous.
-The goal is to support smart cities, IoT dustbins, and environment monitoring systems through automated waste segregation.
+Waste Classification using CNN is a deep learning project that automatically classifies waste images into categories such as:
 
-The project is implemented using TensorFlow/Keras and can be run on Google Colab or VS Code.
+Organic Waste
 
-✨ Features
+Recyclable Waste (Plastic, Paper, Glass, Metal)
 
-🚀 End-to-end Deep Learning pipeline
+Hazardous Waste
 
-🖼️ Image preprocessing + augmentation for improved accuracy
+The system helps improve waste segregation, supporting clean cities, smart waste-management systems, and sustainable development initiatives.
 
-🧠 Custom CNN-based classifier built using TensorFlow/Keras
+This model is built using TensorFlow/Keras, and runs smoothly on Google Colab, Jupyter Notebook, or VS Code.
 
-📊 Training history visualization (accuracy & loss curves)
+✨ Key Features
 
-📁 Dataset loader with easy directory structure
+🚀 Complete Deep Learning Pipeline
 
-⚙️ Works on Google Colab, Jupyter Notebook, and VS Code
+🖼️ Image Preprocessing + Augmentation
 
-🔧 Highly scalable for real-time waste classification apps
+🧠 Custom CNN-based Waste Classifier
+
+📊 Visualization of Accuracy & Loss Curves
+
+📁 Modular Code Structure (train/preprocess/predict)
+
+⚙️ Compatible with VS Code, Colab, and Jupyter
+
+📦 Ready for Deployment (Web / Mobile / IoT)
 
 🛠️ Tech Stack
-Component	Technology Used
+Component	Technology
 Language	Python
 Frameworks	TensorFlow, Keras
-Libraries	NumPy, Pandas, Matplotlib, OpenCV, Scikit-learn
+Libraries	NumPy, Matplotlib, Pandas, OpenCV, Scikit-learn
 Platform	Google Colab / VS Code
 Model Type	Convolutional Neural Network (CNN)
 📂 Project Structure
@@ -46,15 +58,17 @@ AI_Sustainability_Project_Week1/
 │── README.md
 │── requirements.txt
 
-🔧 Installation
+🔧 Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/sreyeshmandly/AI_Sustainability_Project_Week1.git
 cd AI_Sustainability_Project_Week1
 
 2️⃣ Install Dependencies
 
-If using Colab, most libraries already exist.
-For VS Code / Local system:
+✔️ For Google Colab — most packages already available
+✔️ For local setup:
+
+Install using requirements.txt:
 
 pip install -r requirements.txt
 
@@ -64,48 +78,54 @@ OR install manually:
 pip install tensorflow numpy pandas matplotlib opencv-python scikit-learn
 
 🚀 How to Run the Project
-▶️ Option 1: Run on Google Colab
+▶️ Run on Google Colab
 
-Upload the project folder to Drive
+Upload the entire project folder to Google Drive
 
-Open the notebook or .py files
+Open .ipynb or .py files in Colab
 
-Run all cells
+Run all cells to train and test the model
 
-▶️ Option 2: Train the Model Locally (VS Code)
+▶️ Run Locally (VS Code / Jupyter)
 
-Run preprocessing:
+📌 Preprocess Dataset
 
 python src/preprocessing.py
 
 
-Train the CNN model:
+📌 Train the CNN Model
 
 python src/train.py
 
 
-Run prediction on a single image:
+📌 Run Prediction on New Image
 
 python src/predict.py
 
-📊 Results
+📊 Results & Performance
 
-Achieved high training & validation accuracy
+Achieved high accuracy on validation data
 
-Training curves clearly show learning efficiency
+Smooth convergence during training
 
-Model performed well across multiple waste categories
+Model able to generalize well across multiple waste types
 
-You can visualize results using:
+Clear visualization for understanding model performance:
 
 plt.plot(history.history['accuracy'])
 plt.plot(history.history['val_accuracy'])
 
-🗂️ Dataset
+🗂️ Dataset Information
 
-This project uses a Waste Classification Dataset, containing categories like:
+This project uses a structured waste dataset with categories such as:
 
 🥗 Organic Waste
+
+Food waste
+
+Leaves
+
+Vegetables
 
 🧴 Recyclable Waste
 
@@ -113,27 +133,34 @@ Plastic
 
 Glass
 
-Paper
-
 Metal
+
+Paper
 
 ⚠️ Hazardous Waste
 
-You can replace with your own dataset by maintaining the folder structure.
+Batteries
+
+Chemicals
+
+Medical waste
+
+You can replace the dataset with your own — just maintain the folder structure.
 
 🌍 Future Enhancements
 
-🔹 Deploy as a Web App using Flask/Streamlit
-🔹 Deploy as Android App using TensorFlow Lite
+🔹 Deploy as Web App using Streamlit/Flask
+🔹 Develop Android App using TensorFlow Lite
 🔹 Integrate with IoT Smart Bins (Raspberry Pi)
-🔹 Improve accuracy with Transfer Learning (MobileNet, ResNet)
-🔹 Add real-time classification using OpenCV Camera Feed
+🔹 Improve accuracy with MobileNet / ResNet Transfer Learning
+🔹 Add real-time camera detection using OpenCV
 
 🤝 Contributing
 
-Contributions are welcome!
-Feel free to open an Issue or Pull Request.
+Contributions, improvements, and suggestions are welcome!
+Feel free to create an Issue or Pull Request.
 
-⭐ Show Your Support
+⭐ Support the Project
 
-If you like this project, please give it a star ⭐ on GitHub — it helps a lot!
+If you found this project helpful, please ⭐ star the repository.
+Your support motivates further development!
