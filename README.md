@@ -47,16 +47,20 @@ Platform	Google Colab / VS Code
 Model Type	Convolutional Neural Network (CNN)
 📂 Project Structure
 AI_Sustainability_Project_Week1/
+AI_Sustainability_Project_Week1/
 │── dataset/
 │   ├── TRAIN/
-│   ├── TEST/
+│   └── TEST/
+│
 │── src/
 │   ├── train.py
 │   ├── preprocessing.py
-│   ├── predict.py
+│   └── predict.py
+│
 │── saved_model/
-│── README.md
 │── requirements.txt
+│── README.md
+
 
 🔧 Installation & Setup
 1️⃣ Clone the Repository
